@@ -1,24 +1,24 @@
-import { Instagram, Twitter, Github, Linkedin } from 'lucide-react';
+import { Instagram, Twitter, Github, Youtube } from 'lucide-react';
 import logoImg from '@/assets/logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const socialLinks = [{
     icon: Instagram,
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/xzeelarcadia.id',
     label: 'Instagram'
   }, {
     icon: Twitter,
-    href: 'https://twitter.com',
+    href: 'https://x.com/xzeelarcadia',
     label: 'Twitter'
   }, {
     icon: Github,
-    href: 'https://github.com',
+    href: 'https://github.com/Xzeel',
     label: 'Github'
   }, {
-    icon: Linkedin,
-    href: 'https://linkedin.com',
-    label: 'LinkedIn'
+    icon: Youtube,
+    href: 'https://www.youtube.com/@XzeelArcadia',
+    label: 'YouTube'
   }];
   return (
     <footer className="bg-secondary text-secondary-foreground py-12 mt-20">
@@ -50,7 +50,7 @@ const Footer = () => {
               <a target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-primary transition-colors underline decoration-primary/50 hover:decoration-primary" href="https://lumistra-unity.carrd.co/">
                 Lumistra Unity
               </a>
-              . All rights reserved.
+              . All Rights Reserved.
             </p>
           </div>
         </div>
