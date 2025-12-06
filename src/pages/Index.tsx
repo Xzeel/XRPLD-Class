@@ -30,7 +30,10 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto text-center space-y-6">
           <div className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-4 animate-fade-in">
-            Kelas X RPL D
+            X RPL D Class
+          </div>
+          <div className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-4 animate-fade-in">
+            Asta Arkananta
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-foreground animate-fade-in">
             <ShineText>Rekayasa Perangkat Lunak</ShineText>
