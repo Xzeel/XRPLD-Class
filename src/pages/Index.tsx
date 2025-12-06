@@ -36,10 +36,10 @@ const Index = () => {
             Asta Arkananta
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-foreground animate-fade-in">
-            <ShineText>Rekayasa Perangkat Lunak</ShineText>
+            <ShineText>Software Engineering</ShineText>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in h-8">
-            <TypingAnimation text="Selamat datang di website kelas X RPL D!" />
+            <TypingAnimation text="Welcome to the class X RPL D website!" />
           </p>
         </div>
       </section>
