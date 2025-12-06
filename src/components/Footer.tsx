@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Github, Youtube } from 'lucide-react';
+import { Instagram, Twitter, Github, Youtube, MessageCircleHeart } from 'lucide-react';
 import logoImg from '@/assets/logo.png';
 
 const Footer = () => {
@@ -15,6 +15,10 @@ const Footer = () => {
     icon: Github,
     href: 'https://github.com/Xzeel',
     label: 'Github'
+  }, {
+    icon: MessageCircleHeart,
+    href: 'https://whatsapp.com/channel/0029VaIT4EMCBtxFIb4mHu1u',
+    label: 'WhatsApp Channel'
   }, {
     icon: Youtube,
     href: 'https://www.youtube.com/@XzeelArcadia',
