@@ -135,7 +135,7 @@ const Index = () => {
               Galeri Kegiatan
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Momen-momen kece yang jadi highlight serunya perjalanan kelas X RPL D.
+              Momen kece yang jadi highlight serunya perjalanan kelas X RPL D
             </p>
           </div>
           <Gallery />
