@@ -74,7 +74,7 @@ const Index = () => {
                   <div className="text-sm text-muted-foreground">Siswa</div>
                 </div>
                 <div className="text-center p-4 rounded-xl bg-primary/10">
-                  <div className="text-3xl font-bold text-primary">2025</div>
+                  <div className="text-3xl font-bold text-primary">2K25</div>
                   <div className="text-sm text-muted-foreground">Angkatan</div>
                 </div>
               </div>
