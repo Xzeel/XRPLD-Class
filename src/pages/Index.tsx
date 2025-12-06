@@ -61,14 +61,12 @@ const Index = () => {
                 X RPL D - SMKN 8 Malang
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Kami adalah kelas X RPL D, sebuah komunitas pembelajar yang bersemangat dalam dunia 
-                Rekayasa Perangkat Lunak. Dengan dedikasi tinggi dan semangat kolaborasi, kami 
-                berkomitmen untuk menjadi developer handal masa depan Indonesia.
+                Kami ini kelas X RPL D, squad yang lagi gaspol belajar dunia RPL. Dengan vibes kompak dan niat yang nggak setengah-setengah,
+                kami siap jadi developer masa depan yang nggak cuma jago, tapi juga impactful buat Indonesia.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Di kelas ini, kami mempelajari berbagai teknologi pemrograman, pengembangan web, 
-                mobile, dan database. Dengan bimbingan guru-guru terbaik, kami terus mengasah 
-                kemampuan untuk menghadapi tantangan industri teknologi.
+                Di sini, kita ngulik macem-macem teknologi dari coding, web dev, mobile app, sampe database.
+                Dibimbing sama guru-guru yang udah expert, kita terus upgrade skill biar makin siap ngegas di dunia industri teknologi.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div className="text-center p-4 rounded-xl bg-primary/10">
@@ -86,22 +84,21 @@ const Index = () => {
               <div className="relative bg-card rounded-3xl p-8 shadow-xl">
                 <h4 className="text-xl font-bold text-card-foreground mb-4">Visi Kami</h4>
                 <p className="text-muted-foreground mb-6">
-                  Menjadi kelas yang unggul dalam bidang teknologi informasi dan menghasilkan 
-                  lulusan yang kompeten, kreatif, dan berintegritas tinggi.
+                  Jadi kelas yang standout di dunia tech, ngelahirin anak-anak yang jago, kreatif, dan punya integritas tanpa drama.
                 </p>
                 <h4 className="text-xl font-bold text-card-foreground mb-4">Misi Kami</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    Menguasai teknologi pemrograman modern
+                    Ngulik dan nguasain teknologi pemrograman yang kekinian
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    Membangun proyek-proyek inovatif
+                    Bikin proyek-proyek yang fresh, inovatif, dan worth to flex
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    Berkolaborasi dan berbagi ilmu
+                    Kolaborasi bareng, saling sharing biar semua naik level bareng
                   </li>
                 </ul>
               </div>
@@ -118,7 +115,7 @@ const Index = () => {
               Wali Kelas
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Pembimbing dan motivator kami dalam perjalanan belajar
+              Pembimbing sekaligus motivator yang selalu nge-backup kita sepanjang perjalanan belajar ini
             </p>
           </div>
           <TeacherCard
@@ -138,7 +135,7 @@ const Index = () => {
               Galeri Kegiatan
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Momen-momen berharga kegiatan kelas X RPL D
+              Momen-momen kece yang jadi highlight serunya perjalanan kelas X RPL D.
             </p>
           </div>
           <Gallery />
