@@ -41,13 +41,13 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="#guru"
+              href="#teacher"
               className="nav-link text-sm font-medium text-foreground transition-colors relative"
             >
               Teacher
             </a>
             <a
-              href="#galeri"
+              href="#gallery"
               className="nav-link text-sm font-medium text-foreground transition-colors relative"
             >
               Gallery
