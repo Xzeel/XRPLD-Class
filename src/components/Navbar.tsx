@@ -44,13 +44,13 @@ const Navbar = () => {
               href="#guru"
               className="nav-link text-sm font-medium text-foreground transition-colors relative"
             >
-              Guru
+              Teacher
             </a>
             <a
               href="#galeri"
               className="nav-link text-sm font-medium text-foreground transition-colors relative"
             >
-              Galeri
+              Gallery
             </a>
             <button
               onClick={toggleTheme}
