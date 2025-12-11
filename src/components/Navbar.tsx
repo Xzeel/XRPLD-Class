@@ -22,7 +22,7 @@ const Navbar = () => {
   useEffect(() => {
     const audio = audioRef.current;
     if (audio) {
-      audio.volume = 0.3;
+      audio.volume = 0.8;
       const attemptPlay = () => {
         const playPromise = audio.play();
         if (playPromise !== undefined) {
@@ -118,7 +118,7 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          <audio ref={audioRef} src="/audio/Mejikuhibiniu.mp3" loop />
+          <audio ref={audioRef} src="/audio/WhereWeAre.mp3" loop />
 
           {/* Mobile Navigation */}
           <div className="flex md:hidden items-center gap-2">
