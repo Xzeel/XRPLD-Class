@@ -17,7 +17,7 @@ import adindaNabilaImg from '@/assets/students/adinda-nabila.jpg';
 import naufalImg from '@/assets/students/naufal.jpg';
 import aisyahSafaImg from '@/assets/students/aisyah-safa.jpg';
 import akbarImg from '@/assets/students/akbar.jpg';
-import anisaAsaputriImg from '@/assets/students/anisa-asaputri.JPG';
+import anisaAsaputriImg from '@/assets/students/anisa-asaputri.jpg';
 import audyImg from '@/assets/students/audy-valencia.jpg';
 import auliaPutriImg from '@/assets/students/aulia-putri.jpg';
 
