@@ -1,11 +1,10 @@
 interface StudentCardProps {
   name: string;
-  kelas: string;
   noAbsen: number;
   image: string;
 }
 
-const StudentCard = ({ name, kelas, noAbsen, image }: StudentCardProps) => {
+const StudentCard = ({ name, noAbsen, image }: StudentCardProps) => {
   return (
     <div className="group relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -17,14 +16,13 @@ const StudentCard = ({ name, kelas, noAbsen, image }: StudentCardProps) => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <div className="p-6 space-y-3">
-          <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-card-foreground line-clamp-1">{name}</h3>
-            <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold shrink-0">
+        <div className="p-4 space-y-1">
+          <div className="flex items-center justify-between gap-2">
+            <h3 className="text-sm md:text-base font-bold text-card-foreground line-clamp-1">{name}</h3>
+            <span className="px-2 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-semibold shrink-0">
               #{noAbsen}
             </span>
           </div>
-          <p className="text-sm text-muted-foreground font-medium">{kelas}</p>
         </div>
       </div>
     </div>
