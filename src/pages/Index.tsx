@@ -11,6 +11,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 import ClassStructure from '@/components/ClassStructure';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 import teacherImg from '@/assets/teacher.jpg';
+import abiWaqqashImg from '@/assets/students/abi-waqqash.jpg';
 
 const Index = () => {
   useSmoothScroll();
@@ -24,40 +25,40 @@ const Index = () => {
   };
 
   const students = [
-    { name: 'Siswa 1', kelas: 'X RPL D', noAbsen: 1, image: '/placeholder.svg' },
-    { name: 'Siswa 2', kelas: 'X RPL D', noAbsen: 2, image: '/placeholder.svg' },
-    { name: 'Siswa 3', kelas: 'X RPL D', noAbsen: 3, image: '/placeholder.svg' },
-    { name: 'Siswa 4', kelas: 'X RPL D', noAbsen: 4, image: '/placeholder.svg' },
-    { name: 'Siswa 5', kelas: 'X RPL D', noAbsen: 5, image: '/placeholder.svg' },
-    { name: 'Siswa 6', kelas: 'X RPL D', noAbsen: 6, image: '/placeholder.svg' },
-    { name: 'Siswa 7', kelas: 'X RPL D', noAbsen: 7, image: '/placeholder.svg' },
-    { name: 'Siswa 8', kelas: 'X RPL D', noAbsen: 8, image: '/placeholder.svg' },
-    { name: 'Siswa 9', kelas: 'X RPL D', noAbsen: 9, image: '/placeholder.svg' },
-    { name: 'Siswa 10', kelas: 'X RPL D', noAbsen: 10, image: '/placeholder.svg' },
-    { name: 'Siswa 11', kelas: 'X RPL D', noAbsen: 11, image: '/placeholder.svg' },
-    { name: 'Siswa 12', kelas: 'X RPL D', noAbsen: 12, image: '/placeholder.svg' },
-    { name: 'Siswa 13', kelas: 'X RPL D', noAbsen: 13, image: '/placeholder.svg' },
-    { name: 'Siswa 14', kelas: 'X RPL D', noAbsen: 14, image: '/placeholder.svg' },
-    { name: 'Siswa 15', kelas: 'X RPL D', noAbsen: 15, image: '/placeholder.svg' },
-    { name: 'Siswa 16', kelas: 'X RPL D', noAbsen: 16, image: '/placeholder.svg' },
-    { name: 'Siswa 17', kelas: 'X RPL D', noAbsen: 17, image: '/placeholder.svg' },
-    { name: 'Siswa 18', kelas: 'X RPL D', noAbsen: 18, image: '/placeholder.svg' },
-    { name: 'Siswa 19', kelas: 'X RPL D', noAbsen: 19, image: '/placeholder.svg' },
-    { name: 'Siswa 20', kelas: 'X RPL D', noAbsen: 20, image: '/placeholder.svg' },
-    { name: 'Siswa 21', kelas: 'X RPL D', noAbsen: 21, image: '/placeholder.svg' },
-    { name: 'Siswa 22', kelas: 'X RPL D', noAbsen: 22, image: '/placeholder.svg' },
-    { name: 'Siswa 23', kelas: 'X RPL D', noAbsen: 23, image: '/placeholder.svg' },
-    { name: 'Siswa 24', kelas: 'X RPL D', noAbsen: 24, image: '/placeholder.svg' },
-    { name: 'Siswa 25', kelas: 'X RPL D', noAbsen: 25, image: '/placeholder.svg' },
-    { name: 'Siswa 26', kelas: 'X RPL D', noAbsen: 26, image: '/placeholder.svg' },
-    { name: 'Siswa 27', kelas: 'X RPL D', noAbsen: 27, image: '/placeholder.svg' },
-    { name: 'Siswa 28', kelas: 'X RPL D', noAbsen: 28, image: '/placeholder.svg' },
-    { name: 'Siswa 29', kelas: 'X RPL D', noAbsen: 29, image: '/placeholder.svg' },
-    { name: 'Siswa 30', kelas: 'X RPL D', noAbsen: 30, image: '/placeholder.svg' },
-    { name: 'Siswa 31', kelas: 'X RPL D', noAbsen: 31, image: '/placeholder.svg' },
-    { name: 'Siswa 32', kelas: 'X RPL D', noAbsen: 32, image: '/placeholder.svg' },
-    { name: 'Siswa 33', kelas: 'X RPL D', noAbsen: 33, image: '/placeholder.svg' },
-    { name: 'Siswa 34', kelas: 'X RPL D', noAbsen: 34, image: '/placeholder.svg' },
+    { name: 'Abi Waqqash', noAbsen: 1, image: abiWaqqashImg },
+    { name: 'Siswa 2', noAbsen: 2, image: '/placeholder.svg' },
+    { name: 'Siswa 3', noAbsen: 3, image: '/placeholder.svg' },
+    { name: 'Siswa 4', noAbsen: 4, image: '/placeholder.svg' },
+    { name: 'Siswa 5', noAbsen: 5, image: '/placeholder.svg' },
+    { name: 'Siswa 6', noAbsen: 6, image: '/placeholder.svg' },
+    { name: 'Siswa 7', noAbsen: 7, image: '/placeholder.svg' },
+    { name: 'Siswa 8', noAbsen: 8, image: '/placeholder.svg' },
+    { name: 'Siswa 9', noAbsen: 9, image: '/placeholder.svg' },
+    { name: 'Siswa 10', noAbsen: 10, image: '/placeholder.svg' },
+    { name: 'Siswa 11', noAbsen: 11, image: '/placeholder.svg' },
+    { name: 'Siswa 12', noAbsen: 12, image: '/placeholder.svg' },
+    { name: 'Siswa 13', noAbsen: 13, image: '/placeholder.svg' },
+    { name: 'Siswa 14', noAbsen: 14, image: '/placeholder.svg' },
+    { name: 'Siswa 15', noAbsen: 15, image: '/placeholder.svg' },
+    { name: 'Siswa 16', noAbsen: 16, image: '/placeholder.svg' },
+    { name: 'Siswa 17', noAbsen: 17, image: '/placeholder.svg' },
+    { name: 'Siswa 18', noAbsen: 18, image: '/placeholder.svg' },
+    { name: 'Siswa 19', noAbsen: 19, image: '/placeholder.svg' },
+    { name: 'Siswa 20', noAbsen: 20, image: '/placeholder.svg' },
+    { name: 'Siswa 21', noAbsen: 21, image: '/placeholder.svg' },
+    { name: 'Siswa 22', noAbsen: 22, image: '/placeholder.svg' },
+    { name: 'Siswa 23', noAbsen: 23, image: '/placeholder.svg' },
+    { name: 'Siswa 24', noAbsen: 24, image: '/placeholder.svg' },
+    { name: 'Siswa 25', noAbsen: 25, image: '/placeholder.svg' },
+    { name: 'Siswa 26', noAbsen: 26, image: '/placeholder.svg' },
+    { name: 'Siswa 27', noAbsen: 27, image: '/placeholder.svg' },
+    { name: 'Siswa 28', noAbsen: 28, image: '/placeholder.svg' },
+    { name: 'Siswa 29', noAbsen: 29, image: '/placeholder.svg' },
+    { name: 'Siswa 30', noAbsen: 30, image: '/placeholder.svg' },
+    { name: 'Siswa 31', noAbsen: 31, image: '/placeholder.svg' },
+    { name: 'Siswa 32', noAbsen: 32, image: '/placeholder.svg' },
+    { name: 'Siswa 33', noAbsen: 33, image: '/placeholder.svg' },
+    { name: 'Siswa 34', noAbsen: 34, image: '/placeholder.svg' },
   ];
 
   return (
@@ -215,7 +216,6 @@ const Index = () => {
               <ScrollReveal key={student.noAbsen} delay={index * 30}>
                 <StudentCard
                   name={student.name}
-                  kelas={student.kelas}
                   noAbsen={student.noAbsen}
                   image={student.image}
                 />
