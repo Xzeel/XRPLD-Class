@@ -12,6 +12,9 @@ import ClassStructure from '@/components/ClassStructure';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 import teacherImg from '@/assets/teacher.jpg';
 import abiWaqqashImg from '@/assets/students/abi-waqqash.jpg';
+import miftaImg from '@/assets/students/mifta.jpg';
+import adindaNabilaImg from '@/assets/students/adinda-nabila.jpg';
+import naufalImg from '@/assets/students/naufal.jpg';
 
 const Index = () => {
   useSmoothScroll();
@@ -26,39 +29,39 @@ const Index = () => {
 
   const students = [
     { name: 'Abi Waqqash', noAbsen: 1, image: abiWaqqashImg },
-    { name: 'Siswa 2', noAbsen: 2, image: '/placeholder.svg' },
-    { name: 'Siswa 3', noAbsen: 3, image: '/placeholder.svg' },
-    { name: 'Siswa 4', noAbsen: 4, image: '/placeholder.svg' },
-    { name: 'Siswa 5', noAbsen: 5, image: '/placeholder.svg' },
-    { name: 'Siswa 6', noAbsen: 6, image: '/placeholder.svg' },
-    { name: 'Siswa 7', noAbsen: 7, image: '/placeholder.svg' },
-    { name: 'Siswa 8', noAbsen: 8, image: '/placeholder.svg' },
-    { name: 'Siswa 9', noAbsen: 9, image: '/placeholder.svg' },
-    { name: 'Siswa 10', noAbsen: 10, image: '/placeholder.svg' },
-    { name: 'Siswa 11', noAbsen: 11, image: '/placeholder.svg' },
-    { name: 'Siswa 12', noAbsen: 12, image: '/placeholder.svg' },
-    { name: 'Siswa 13', noAbsen: 13, image: '/placeholder.svg' },
-    { name: 'Siswa 14', noAbsen: 14, image: '/placeholder.svg' },
-    { name: 'Siswa 15', noAbsen: 15, image: '/placeholder.svg' },
-    { name: 'Siswa 16', noAbsen: 16, image: '/placeholder.svg' },
-    { name: 'Siswa 17', noAbsen: 17, image: '/placeholder.svg' },
-    { name: 'Siswa 18', noAbsen: 18, image: '/placeholder.svg' },
-    { name: 'Siswa 19', noAbsen: 19, image: '/placeholder.svg' },
-    { name: 'Siswa 20', noAbsen: 20, image: '/placeholder.svg' },
-    { name: 'Siswa 21', noAbsen: 21, image: '/placeholder.svg' },
-    { name: 'Siswa 22', noAbsen: 22, image: '/placeholder.svg' },
-    { name: 'Siswa 23', noAbsen: 23, image: '/placeholder.svg' },
-    { name: 'Siswa 24', noAbsen: 24, image: '/placeholder.svg' },
-    { name: 'Siswa 25', noAbsen: 25, image: '/placeholder.svg' },
-    { name: 'Siswa 26', noAbsen: 26, image: '/placeholder.svg' },
-    { name: 'Siswa 27', noAbsen: 27, image: '/placeholder.svg' },
-    { name: 'Siswa 28', noAbsen: 28, image: '/placeholder.svg' },
-    { name: 'Siswa 29', noAbsen: 29, image: '/placeholder.svg' },
-    { name: 'Siswa 30', noAbsen: 30, image: '/placeholder.svg' },
-    { name: 'Siswa 31', noAbsen: 31, image: '/placeholder.svg' },
-    { name: 'Siswa 32', noAbsen: 32, image: '/placeholder.svg' },
-    { name: 'Siswa 33', noAbsen: 33, image: '/placeholder.svg' },
-    { name: 'Siswa 34', noAbsen: 34, image: '/placeholder.svg' },
+    { name: 'Achmad Miftakhul Haq', noAbsen: 2, image: miftaImg },
+    { name: 'Adinda Nabila P.S', noAbsen: 3, image: adindaNabilaImg },
+    { name: 'Ahnaf Naufal Prawira', noAbsen: 4, image: naufalImg },
+    { name: 'Aisyah Safa Azahrah', noAbsen: 5, image: '/placeholder.svg' },
+    { name: 'Akbar Ramadhan Yasid', noAbsen: 6, image: '/placeholder.svg' },
+    { name: 'Anisa Asaputri W.K', noAbsen: 7, image: '/placeholder.svg' },
+    { name: 'Audy Valencia', noAbsen: 8, image: '/placeholder.svg' },
+    { name: 'Aulia Putri Maharani', noAbsen: 9, image: '/placeholder.svg' },
+    { name: 'Bintang Sholikhul Khakim', noAbsen: 10, image: '/placeholder.svg' },
+    { name: 'Esya Galih Pratama', noAbsen: 11, image: '/placeholder.svg' },
+    { name: 'Fadhil Dwi Nugroho', noAbsen: 12, image: '/placeholder.svg' },
+    { name: 'Galih Ajeng Ayuningtyas', noAbsen: 13, image: '/placeholder.svg' },
+    { name: 'Gendis Diva Azuhra', noAbsen: 14, image: '/placeholder.svg' },
+    { name: 'Gendis Gadis Galuh', noAbsen: 15, image: '/placeholder.svg' },
+    { name: 'Indhana Zulfa', noAbsen: 16, image: '/placeholder.svg' },
+    { name: 'Izza Nur R.K', noAbsen: 17, image: '/placeholder.svg' },
+    { name: 'Johansyach Rainer Kusworo', noAbsen: 18, image: '/placeholder.svg' },
+    { name: 'Kaka Satria Pamungkas', noAbsen: 19, image: '/placeholder.svg' },
+    { name: 'Ken Abimanyu K', noAbsen: 20, image: '/placeholder.svg' },
+    { name: 'Moch Raihan Fadillah', noAbsen: 21, image: '/placeholder.svg' },
+    { name: 'Muhammad Fafa F.F', noAbsen: 22, image: '/placeholder.svg' },
+    { name: 'Muhammad Irgy Farezi', noAbsen: 23, image: '/placeholder.svg' },
+    { name: 'Muhammad Shulthan A.G', noAbsen: 24, image: '/placeholder.svg' },
+    { name: 'Navissa Naora Nadzillin', noAbsen: 25, image: '/placeholder.svg' },
+    { name: 'Navisya Salfa Saifunisa', noAbsen: 26, image: '/placeholder.svg' },
+    { name: 'Nesya Putri Anggraini', noAbsen: 27, image: '/placeholder.svg' },
+    { name: 'Ramadhani Hakhimah Z.K', noAbsen: 28, image: '/placeholder.svg' },
+    { name: 'Salma Dinah Herfinza', noAbsen: 29, image: '/placeholder.svg' },
+    { name: 'Satria Moreno Prasetya', noAbsen: 30, image: '/placeholder.svg' },
+    { name: 'Serli Aprilia Maulida', noAbsen: 31, image: '/placeholder.svg' },
+    { name: 'Widi Heri Waluyo', noAbsen: 32, image: '/placeholder.svg' },
+    { name: 'Yesica Gianita W.P', noAbsen: 33, image: '/placeholder.svg' },
+    { name: 'Zakrianda Putra Faristo', noAbsen: 34, image: '/placeholder.svg' },
   ];
 
   return (
