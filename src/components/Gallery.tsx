@@ -8,6 +8,14 @@ import gallery6Img from '@/assets/gallery6.jpg';
 import gallery7Img from '@/assets/gallery7.jpg';
 import gallery8Img from '@/assets/gallery8.jpg';
 import gallery9Img from '@/assets/gallery9.png';
+import gallery10Img from '@/assets/gallery10.jpg';
+import gallery11Img from '@/assets/gallery11.jpg';
+import gallery12Img from '@/assets/gallery12.jpg';
+import gallery13Img from '@/assets/gallery13.jpg';
+import gallery14Img from '@/assets/gallery14.jpg';
+import gallery15Img from '@/assets/gallery15.jpg';
+import gallery16Img from '@/assets/gallery16.jpg';
+import gallery17Img from '@/assets/gallery17.jpg';
 import { X } from 'lucide-react';
 
 const Gallery = () => {
@@ -24,6 +32,14 @@ const Gallery = () => {
     { src: gallery7Img, alt: 'Fotbar bareng guru PPL DPGIM (Girls Only 1)' },
     { src: gallery8Img, alt: 'Fotbar bareng guru PPL DPGIM (Girls Only 2)' },
     { src: gallery9Img, alt: 'Fotbar Peak Day Kokulikuler 2025' },
+    { src: gallery10Img, alt: 'Foto Classmeet Lomba Basket Day 1' },
+    { src: gallery11Img, alt: 'Foto Classmeet Lomba Basket Day 1' },
+    { src: gallery12Img, alt: 'Foto Classmeet Lomba Basket Day 1' },
+    { src: gallery13Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
+    { src: gallery14Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
+    { src: gallery15Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
+    { src: gallery16Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
+    { src: gallery17Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
   ];
 
   return (
