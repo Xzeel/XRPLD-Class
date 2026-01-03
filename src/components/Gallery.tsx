@@ -9,13 +9,13 @@ import gallery7Img from '@/assets/gallery7.webp';
 import gallery8Img from '@/assets/gallery8.webp';
 import gallery9Img from '@/assets/gallery9.webp';
 import gallery10Img from '@/assets/gallery10.webp';
-import gallery11Img from '@/assets/gallery11.jpg';
-import gallery12Img from '@/assets/gallery12.jpg';
-import gallery13Img from '@/assets/gallery13.jpg';
-import gallery14Img from '@/assets/gallery14.jpg';
-import gallery15Img from '@/assets/gallery15.jpg';
-import gallery16Img from '@/assets/gallery16.jpg';
-import gallery17Img from '@/assets/gallery17.jpg';
+import gallery11Img from '@/assets/gallery11.webp';
+import gallery12Img from '@/assets/gallery12.webp';
+import gallery13Img from '@/assets/gallery13.webp';
+import gallery14Img from '@/assets/gallery14.webp';
+import gallery15Img from '@/assets/gallery15.webp';
+import gallery16Img from '@/assets/gallery16.webp';
+import gallery17Img from '@/assets/gallery17.webp';
 import { X } from 'lucide-react';
 
 const Gallery = () => {
