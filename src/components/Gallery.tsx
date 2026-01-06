@@ -21,6 +21,18 @@ import { X } from 'lucide-react';
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  // Prevent body scroll when lightbox is open
+  useEffect(() => {
+    if (selectedImage) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [selectedImage]);
+
 
   const galleryImages = [
     { src: gallery1Img, alt: 'Fotbar bareng guru PPL Agama Islam' },
