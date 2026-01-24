@@ -1,7 +1,35 @@
 import { useState, useEffect, useRef } from 'react';
-import { Moon, Sun, Menu, X, Info, User, Image, Volume2, VolumeX } from 'lucide-react';
+import { Moon, Sun, Menu, X, Info, User, Image, Volume2, VolumeX, Clock } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
 import logoImg from '@/assets/logo.webp';
+
+const TimeDisplay = () => {
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const formatTime = (date: Date) => {
+    const hours = date.getHours().toString().padStart(2, '0');
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    const seconds = date.getSeconds().toString().padStart(2, '0');
+    return `${hours}:${minutes}:${seconds}`;
+  };
+
+  return (
+    <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-background/60 backdrop-blur-sm border border-border/50 shadow-sm">
+      <Clock className="w-3.5 h-3.5 text-muted-foreground" />
+      <span className="text-xs md:text-sm font-medium text-foreground tabular-nums">
+        {formatTime(currentTime)}
+      </span>
+    </div>
+  );
+};
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -68,6 +96,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 py-4 px-4">
+      {/* Time Display - Right Side */}
+      <div className="absolute right-4 top-1/2 -translate-y-1/2">
+        <TimeDisplay />
+      </div>
       <div
         className={`max-w-4xl mx-auto px-4 md:px-6 py-3 rounded-2xl transition-all duration-300 ${
           scrolled
