@@ -53,7 +53,7 @@ const Footer = () => {
             <p className="text-xs md:text-sm text-secondary-foreground/80">
               © 2025 - {currentYear}{' '}
               <a target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-primary transition-colors underline decoration-primary/50 hover:decoration-primary" href="https://xzeelarcadia.vercel.app/">
-                XzeelArcadia
+                X RPL D
               </a>
               . All Rights Reserved.
             </p>
