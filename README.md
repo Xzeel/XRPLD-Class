@@ -28,4 +28,7 @@
 © 2026 XzeelArcadia.
 © 2025-2026 X RPL D. All Rights Reserved.
 © 2025-2026 Lumistra Unity. All Rights Reserved.
+
+This project is not open source.
+You are not allowed to copy, modify, or reuse any part of this code without permission.
 ```
