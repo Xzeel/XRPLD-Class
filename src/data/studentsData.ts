@@ -1,4 +1,4 @@
-import abiWaqqashImg from '@/assets/students/abi-waqqash.jpg';
+import abiWaqqashImg from '@/assets/students/abi.webp';
 import miftaImg from '@/assets/students/mifta.jpg';
 import adindaNabilaImg from '@/assets/students/adinda-nabila.jpg';
 import naufalImg from '@/assets/students/naufal.jpg';
