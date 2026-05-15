@@ -22,14 +22,14 @@ export interface GalleryImage {
 }
 
 export const galleryImages: GalleryImage[] = [
-  { src: gallery1Img, alt: 'Fotbar bareng guru PPL Agama Islam' },
-  { src: gallery2Img, alt: 'Fotbar hari Guru 2025 bareng pak Danang' },
-  { src: gallery3Img, alt: 'Fotbar latihan tampil PPTA 2025' },
-  { src: gallery4Img, alt: 'Fotbar bareng guru PPL Informatika' },
-  { src: gallery5Img, alt: 'Fotbar bareng guru PPL DPGIM (All)' },
-  { src: gallery6Img, alt: 'Fotbar bareng guru PPL DPGIM (Mirror)' },
-  { src: gallery7Img, alt: 'Fotbar bareng guru PPL DPGIM (Girls Only 1)' },
-  { src: gallery8Img, alt: 'Fotbar bareng guru PPL DPGIM (Girls Only 2)' },
+  { src: gallery1Img, alt: 'Fotbar guru PPL Agama Islam' },
+  { src: gallery2Img, alt: 'Fotbar Hari Guru 2025' },
+  { src: gallery3Img, alt: 'Fotbar Latihan Tampil PPTA 2025' },
+  { src: gallery4Img, alt: 'Fotbar Guru PPL Informatika' },
+  { src: gallery5Img, alt: 'Fotbar Guru PPL DPGIM (All)' },
+  { src: gallery6Img, alt: 'Fotbar Guru PPL DPGIM (Mirror)' },
+  { src: gallery7Img, alt: 'Fotbar Guru PPL DPGIM (Girls Only 1)' },
+  { src: gallery8Img, alt: 'Fotbar Guru PPL DPGIM (Girls Only 2)' },
   { src: gallery9Img, alt: 'Fotbar Peak Day Kokulikuler 2025' },
   { src: gallery10Img, alt: 'Foto Classmeet Lomba Basket Day 1' },
   { src: gallery11Img, alt: 'Foto Classmeet Lomba Basket Day 1' },
