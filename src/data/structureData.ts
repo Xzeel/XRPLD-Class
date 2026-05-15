@@ -14,7 +14,7 @@ export const structure: StructureItem[] = [
   },
   {
     title: 'Sekretaris',
-    members: ['1. Salma Dinah Herfinza', '2. Ramadhani Hakhimah Zuhria Khoji'],
+    members: ['1. Ramadhani Hakhimah Zuhria Khoji', '2. Bintang Sholikhul Khakim'],
   },
   {
     title: 'Bendahara',
