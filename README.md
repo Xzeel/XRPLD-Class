@@ -4,6 +4,15 @@
   <img src="public/XRPLD_Class_Banner.png" alt="X RPL D Logo" />
 </p>
 
+```
+   _  __    ____  ____  __       ____ 
+  | |/ /   / __ \/ __ \/ /      / __ \
+  |   /   / /_/ / /_/ / /      / / / /
+ /   |   / _, _/ ____/ /___   / /_/ / 
+/_/|_|  /_/ |_/_/   /_____/  /_____/  
+                                      
+```
+
 <h3 align="center">A class structure built with Vite.js. Cool modern animated UI.</h3>
 
 ## Features
