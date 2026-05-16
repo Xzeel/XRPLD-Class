@@ -45,7 +45,7 @@ const Index = () => {
       {/* Scroll Velocity Marquee */}
       <section className="py-16 md:py-24">
         <ScrollVelocity
-          texts={['X RPL D', 'Software Engineering']}
+          texts={['Website of X RPL D', 'Class of 2025']}
           velocity={40}
           className="text-foreground"
         />
