@@ -1,5 +1,3 @@
-# X RPL D Class
-
 <p align="center">
   <img src="public/XRPLD_Class_Banner.png" alt="X RPL D Logo" />
 </p>
