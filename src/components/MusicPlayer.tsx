@@ -1,27 +1,48 @@
 import { useState, useRef, useEffect } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 
+const STORAGE_KEY = 'bgm-playing';
+
 const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     const audio = audioRef.current;
-    if (audio) {
-      audio.volume = 0.8;
+    if (!audio) return;
+    audio.volume = 0.8;
+
+    const shouldPlay = localStorage.getItem(STORAGE_KEY) === 'true';
+    if (shouldPlay) {
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => setIsPlaying(true))
+          .catch(() => {
+            // Autoplay blocked — resume on first user interaction
+            const resume = () => {
+              audio.play().then(() => setIsPlaying(true)).catch(() => {});
+              document.removeEventListener('click', resume);
+              document.removeEventListener('touchstart', resume);
+            };
+            document.addEventListener('click', resume);
+            document.addEventListener('touchstart', resume);
+          });
+      }
     }
   }, []);
 
   const toggleMusic = () => {
     const audio = audioRef.current;
-    if (audio) {
-      if (isPlaying) {
-        audio.pause();
-        setIsPlaying(false);
-      } else {
-        audio.play();
-        setIsPlaying(true);
-      }
+    if (!audio) return;
+    if (isPlaying) {
+      audio.pause();
+      setIsPlaying(false);
+      localStorage.setItem(STORAGE_KEY, 'false');
+    } else {
+      audio.play();
+      setIsPlaying(true);
+      localStorage.setItem(STORAGE_KEY, 'true');
     }
   };
 
