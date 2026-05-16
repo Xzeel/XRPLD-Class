@@ -9,6 +9,7 @@ import ShineText from '@/components/ShineText';
 import TypingAnimation from '@/components/TypingAnimation';
 import ScrollReveal from '@/components/ScrollReveal';
 import ClassStructure from '@/components/ClassStructure';
+import ScrollVelocity from '@/components/ScrollVelocity';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 import { teacher } from '@/data/teacherData';
 import { students } from '@/data/studentsData';
@@ -39,6 +40,15 @@ const Index = () => {
             <TypingAnimation text="Welcome to the class X RPL D website!" />
           </p>
         </div>
+      </section>
+
+      {/* Scroll Velocity Marquee */}
+      <section className="py-16 md:py-24">
+        <ScrollVelocity
+          texts={['X RPL D', 'Software Engineering']}
+          velocity={40}
+          className="text-foreground"
+        />
       </section>
 
       {/* About Section */}
