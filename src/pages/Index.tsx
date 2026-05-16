@@ -42,6 +42,15 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Scroll Velocity Marquee */}
+      <section className="py-16 md:py-24">
+        <ScrollVelocity
+          texts={['X RPL D', 'Software Engineering']}
+          velocity={40}
+          className="text-foreground"
+        />
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 px-4">
         <div className="container mx-auto">
