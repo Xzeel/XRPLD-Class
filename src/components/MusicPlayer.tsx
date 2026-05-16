@@ -2,32 +2,13 @@ import { useState, useRef, useEffect } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 
 const MusicPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (audio) {
       audio.volume = 0.8;
-      // Attempt autoplay
-      const attemptPlay = () => {
-        const playPromise = audio.play();
-        if (playPromise !== undefined) {
-          playPromise.catch(() => {
-            // Auto-play was prevented, try on first user interaction
-            const handleFirstInteraction = () => {
-              audio.play();
-              setIsPlaying(true);
-              document.removeEventListener('click', handleFirstInteraction);
-              document.removeEventListener('touchstart', handleFirstInteraction);
-            };
-            document.addEventListener('click', handleFirstInteraction);
-            document.addEventListener('touchstart', handleFirstInteraction);
-            setIsPlaying(false);
-          });
-        }
-      };
-      attemptPlay();
     }
   }, []);
 
@@ -36,10 +17,11 @@ const MusicPlayer = () => {
     if (audio) {
       if (isPlaying) {
         audio.pause();
+        setIsPlaying(false);
       } else {
         audio.play();
+        setIsPlaying(true);
       }
-      setIsPlaying(!isPlaying);
     }
   };
 
