@@ -15,6 +15,7 @@ import gallery14Img from '@/assets/gallery14.webp';
 import gallery15Img from '@/assets/gallery15.webp';
 import gallery16Img from '@/assets/gallery16.webp';
 import gallery17Img from '@/assets/gallery17.webp';
+import gallery18Img from '@/assets/gallery18.webp';
 
 export interface GalleryImage {
   src: string;
@@ -22,7 +23,7 @@ export interface GalleryImage {
 }
 
 export const galleryImages: GalleryImage[] = [
-  { src: gallery1Img, alt: 'Fotbar guru PPL Agama Islam' },
+  { src: gallery1Img, alt: 'Fotbar Guru PPL Agama Islam' },
   { src: gallery2Img, alt: 'Fotbar Hari Guru 2025' },
   { src: gallery3Img, alt: 'Fotbar Latihan Tampil PPTA 2025' },
   { src: gallery4Img, alt: 'Fotbar Guru PPL Informatika' },
@@ -39,4 +40,5 @@ export const galleryImages: GalleryImage[] = [
   { src: gallery15Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
   { src: gallery16Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
   { src: gallery17Img, alt: 'Foto Classmeet Lomba Futsal Day 3' },
+  { src: gallery18Img, alt: 'Fotbar Guru PPL Informatika' },
 ];
