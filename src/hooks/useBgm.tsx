@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const STORAGE_KEY = 'bgm-playing';
-const AUDIO_SRC = '/audio/LadyKillersII.mp3';
+const AUDIO_SRC = '/audio/bye.mp3';
 
 // Module-level singleton so all components share one audio instance
 let audioInstance: HTMLAudioElement | null = null;
