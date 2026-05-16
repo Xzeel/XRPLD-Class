@@ -1,6 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X, Info, User, Image, Volume2, VolumeX, Clock } from 'lucide-react';
 import { useTheme } from '@/hooks/useTheme';
+import { useBgm } from '@/hooks/useBgm';
 import logoImg from '@/assets/logo.webp';
 
 const TimeDisplay = () => {
@@ -34,8 +35,7 @@ const TimeDisplay = () => {
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(true);
-  const audioRef = useRef<HTMLAudioElement>(null);
+  const { isPlaying, toggle: toggleMusic } = useBgm();
   const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
@@ -46,42 +46,6 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  useEffect(() => {
-    const audio = audioRef.current;
-    if (audio) {
-      audio.volume = 0.8;
-      const attemptPlay = () => {
-        const playPromise = audio.play();
-        if (playPromise !== undefined) {
-          playPromise.catch(() => {
-            const handleFirstInteraction = () => {
-              audio.play();
-              setIsPlaying(true);
-              document.removeEventListener('click', handleFirstInteraction);
-              document.removeEventListener('touchstart', handleFirstInteraction);
-            };
-            document.addEventListener('click', handleFirstInteraction);
-            document.addEventListener('touchstart', handleFirstInteraction);
-            setIsPlaying(false);
-          });
-        }
-      };
-      attemptPlay();
-    }
-  }, []);
-
-  const toggleMusic = () => {
-    const audio = audioRef.current;
-    if (audio) {
-      if (isPlaying) {
-        audio.pause();
-      } else {
-        audio.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
 
   const navLinks = [
     { href: '#about', label: 'About', icon: Info },
@@ -151,7 +115,7 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          <audio ref={audioRef} src="/audio/LadyKillersII.mp3" loop />
+          
 
           {/* Mobile Navigation */}
           <div className="flex md:hidden items-center gap-2">
