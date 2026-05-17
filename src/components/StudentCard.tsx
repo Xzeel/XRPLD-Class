@@ -4,9 +4,10 @@ interface StudentCardProps {
   name: string;
   noAbsen: number;
   image: string;
+  instagram: string;
 }
 
-const StudentCard = ({ name, noAbsen, image }: StudentCardProps) => {
+const StudentCard = ({ name, noAbsen, image, instagram }: StudentCardProps) => {
   return (
     <div className="group relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
