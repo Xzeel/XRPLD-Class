@@ -190,7 +190,7 @@ const Index = () => {
           <ScrollReveal>
             <div className="text-center mb-16 space-y-4">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                Galeri Kegiatan
+                Moments
               </h2>
               <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
