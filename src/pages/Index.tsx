@@ -190,9 +190,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Galeri Kegiatan
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Momen kece yang jadi highlight serunya perjalanan kelas X RPL D
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={100}>
