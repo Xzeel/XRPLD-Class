@@ -150,9 +150,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Struktur Kelas
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Susunan pengurus kelas yang siap nge-handle segala urusan biar kelas tetap rapi, aman, dan stay on track
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <ClassStructure />
