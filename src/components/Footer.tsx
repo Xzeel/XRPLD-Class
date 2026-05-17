@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Github, Youtube, MessageCircleHeart } from 'lucide-react';
+import { Instagram, Github, MessageCircleHeart } from 'lucide-react';
 import logoImg from '@/assets/logo.webp';
 
 const Footer = () => {
