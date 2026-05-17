@@ -59,9 +59,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 About Us
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Ngintip lebih deket tentang vibes dan karakter seru dari kelas X RPL D
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-12 items-center">
