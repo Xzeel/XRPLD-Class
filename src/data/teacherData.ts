@@ -5,6 +5,7 @@ export interface Teacher {
   jabatan: string;
   motivasi: string;
   image: string;
+  instagram: string;
 }
 
 export const teacher: Teacher = {
@@ -13,4 +14,5 @@ export const teacher: Teacher = {
   motivasi:
     'Pendidikan adalah senjata paling ampuh yang bisa kamu gunakan untuk mengubah dunia',
   image: teacherImg,
+  instagram: 'https://instagram.com/danangdwigfy',
 };

@@ -1,11 +1,14 @@
+import { Instagram } from 'lucide-react';
+
 interface TeacherCardProps {
   name: string;
   jabatan: string;
   motivasi: string;
   image: string;
+  instagram: string;
 }
 
-const TeacherCard = ({ name, jabatan, motivasi, image }: TeacherCardProps) => {
+const TeacherCard = ({ name, jabatan, motivasi, image, instagram }: TeacherCardProps) => {
   return (
     <div className="group relative max-w-md mx-auto">
       <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/50 to-secondary rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500" />
@@ -24,6 +27,17 @@ const TeacherCard = ({ name, jabatan, motivasi, image }: TeacherCardProps) => {
             </div>
             <h2 className="text-2xl font-bold text-card-foreground">{name}</h2>
             <p className="text-muted-foreground font-medium">{jabatan}</p>
+            <div className="pt-2 flex justify-center">
+              <a
+                href={instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-semibold transition-all duration-300 hover:bg-primary/90 hover:scale-105"
+              >
+                <Instagram className="w-4 h-4" />
+                Connect
+              </a>
+            </div>
           </div>
           <div className="pt-4 border-t border-border">
             <p className="text-sm text-muted-foreground italic text-center">

@@ -137,6 +137,7 @@ const Index = () => {
               jabatan={teacher.jabatan}
               motivasi={teacher.motivasi}
               image={teacher.image}
+              instagram={teacher.instagram}
             />
           </ScrollReveal>
         </div>
@@ -175,6 +176,7 @@ const Index = () => {
                   name={student.name}
                   noAbsen={student.noAbsen}
                   image={student.image}
+                  instagram={student.instagram}
                 />
               </ScrollReveal>
             ))}
