@@ -8,10 +8,6 @@ const Footer = () => {
     href: 'https://www.instagram.com/astarplderise_',
     label: 'Instagram'
   }, {
-    icon: Twitter,
-    href: 'https://x.com/xzeelarcadia',
-    label: 'Twitter'
-  }, {
     icon: Github,
     href: 'https://github.com/Xzeel',
     label: 'Github'
@@ -19,10 +15,6 @@ const Footer = () => {
     icon: MessageCircleHeart,
     href: 'https://whatsapp.com/channel/0029VaIT4EMCBtxFIb4mHu1u',
     label: 'WhatsApp Channel'
-  }, {
-    icon: Youtube,
-    href: 'https://www.youtube.com/@XzeelArcadia',
-    label: 'YouTube'
   }];
 
   return (
@@ -31,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center space-y-6">
           <div className="flex items-center space-x-3">
             <img src={logoImg} alt="X RPL D Logo" className="w-10 h-10 rounded-lg object-cover" />
-            <span className="text-lg font-bold text-secondary-foreground">X RPL D</span>
+            <span className="text-lg font-bold text-secondary-foreground">X RPL D RISE</span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
