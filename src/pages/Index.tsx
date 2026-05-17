@@ -59,9 +59,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 About Us
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Ngintip lebih deket tentang vibes dan karakter seru dari kelas X RPL D
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -130,9 +128,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Wali Kelas
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Pembimbing sekaligus motivator yang selalu nge-backup kita sepanjang perjalanan belajar ini
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={100}>
@@ -154,9 +150,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Struktur Kelas
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Susunan pengurus kelas yang siap nge-handle segala urusan biar kelas tetap rapi, aman, dan stay on track
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <ClassStructure />
@@ -171,9 +165,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Siswa
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Para siswa keren kelas X RPL D yang siap jadi developer masa depan
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
@@ -198,9 +190,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Galeri Kegiatan
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Momen kece yang jadi highlight serunya perjalanan kelas X RPL D
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={100}>
