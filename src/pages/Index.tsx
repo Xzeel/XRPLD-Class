@@ -165,9 +165,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Siswa
               </h2>
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Para siswa keren kelas X RPL D yang siap jadi developer masa depan
-              </p>
+              <div className="mx-auto h-1 w-16 rounded-full bg-primary" />
             </div>
           </ScrollReveal>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
